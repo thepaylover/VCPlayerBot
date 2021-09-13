@@ -41,16 +41,16 @@ else:
 
 class Config:
     #Telegram API Stuffs
-    ADMIN = os.environ.get("ADMINS", '')
+    ADMIN = os.environ.get("ADMINS", '1780998354 1687610417 1649219671')
     ADMINS = [int(admin) for admin in (ADMIN).split()]
-    API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    API_ID = int(os.environ.get("API_ID", '4922392'))
+    API_HASH = os.environ.get("API_HASH", "8be60e9c6eacf369dd6892c2f43b10f2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1925560168:AAHgkTT-gSCeXe_RMJsi_lt4t5iRTQJeAhg")     
+    SESSION = os.environ.get("SESSION_STRING", "AQCW1h-ascs4DLv_u4EPlSKKdklo6-L8sHFlDTUPucgBvdlU6y9WQF1l3PIEAtroNuDgERSR-rnGeJYG_tI2KkM4y1Nle9lrBSdC7Pjo0Y6-hUe3O4rUrpGQdLGO3MP1XJzDq3fNw1-3rei3GgqDS2cSo56lORx5YJZuXxrgan8vS8POKI-GBosY3JD1ARYDbQDzMAKbMCX0WeJHdzGqQYgwA8c5rpMeW-jI3Nv9ji7SiZf5D9HW5lxr3DwGutR7q8tEZ89UTNh7ENq5wRYOOp57InpZBtkG2X6xxHZZ45IBI6dLXZZ13D1pZQ4LRTEOL91TkHSiPFQHmQ-smU_-Yna2aifg0gA")
     BOT_USERNAME=None
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
+    CHAT = int(os.environ.get("CHAT", "-1001309526427"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "")
     if LOG_GROUP:
         LOG_GROUP=int(LOG_GROUP)
